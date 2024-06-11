@@ -1,7 +1,7 @@
 name: s12 final
 on: 
   push: 
-    branches: [ "main" ]
+    branches: [ "main", "BranchForDoc" ]
     tags: '*'
 jobs:
   test:
