@@ -38,7 +38,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.5.1
         with:
-          images: lebauchoir/myapp:v1
+          images: lebauchoir/myapp
 
       - name: Build and push Docker Inage
         uses: docker/build-push-action@v5
